@@ -1,11 +1,14 @@
 :root {
     --main_font: Verdana, Geneva, Tahoma, sans-serif;
     --header_color: white;
+    --sub_color: Gray;
+    --anchor_color: aquamarine;
 }
 
 body {
     background-color: black;
     text-align: center;
+    font-family: var(--main_font);
 }
 
 img, video {
@@ -14,7 +17,6 @@ img, video {
 }
 
 h1{
-    font-family: var(--main_font);
     color: var(--header_color);
     font-weight: normal;
     font-size: 50px;
@@ -22,13 +24,35 @@ h1{
 }
 
 h2 {
-    font-family: var(--main_font);
     color: var(--header_color);
     font-weight: 300;
     font-size: 42px;
 }
 
+a {
+    color: var(--anchor_color);
+    font-size: 16px;
+}
 
+.recommendations p {
+    font-family: var(--main_font);
+    color: var(--sub_color);
+    font-size: 21px;
+}
+
+.recommendations {
+    margin-bottom: 30px;
+}
+
+.coming_soon {
+    margin-bottom: 30px;
+}
+
+#trademark {
+    font-family: var(--main_font);
+    color: var(--sub_color);
+    text-align: right;
+}
 
 
 
